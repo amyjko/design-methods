@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+		<link rel="stylesheet" href="style.css" />
+			
+		<title>Empirical evaluation</title>
+				
+	</head>
+	<body>
+
+		<p><a href="index.html">Back to table of contents</a></p>
+
+		<img src="images/usability-test.jpg" class="img-responsive" />		
+		<small>Credit: Media Barn Research</small>
+		
+		<h1>How to evaluate empirically</h1>
+		<div class="lead">Andrew J. Ko</div>
+
+		<p><a href="how-to-be-critical.html">Critique</a> leverages intuition, expertise, and judgement. These are powerful, invaluable sources of feedback, but they do have limitations. Most notably, they can be subjective and sparse. What if instead of expert speculation about whether a design will work (which is prone to <a href="http://aer.sagepub.com/content/40/4/905.short">blind spots</a>, such as masking hard problems that experts view as easy), you want to actually <em>observe</em> whether it will work?</p>
+		
+		<p>This all depends on what you mean by "work." To find out whether your design actually addresses a problem empirically, you're going to have to do a lot more than just show someone a prototype. There are far too many factors that influence a solution's effectiveness to consider. The only way to get certainty about that is to actually build your solution and deploy it into someone's life. Some people will use a method called a <a href="http://dx.doi.org/10.1145/642611.642616">technology probe</a>, which deploys a prototype into a context, allowing designers to research how the prototype has changed their practices through interviews, logging, and other types of data collection. It's also possible to use <a href="http://www.tandfonline.com/doi/abs/10.1080/10447310709336957">experience sampling</a>, which is a more narrow strategy of just interrupting users with brief surveys about how their experience with a prototype, gathered in the context of using it. Both of these methods emphasize <em>ecological validity</em>, or the degree to which an evaluation generalizes to real situations. By using actual real-life contexts, they're quite real.</p>
+		
+		<p>It's also becoming common in industry to compare designs <em>experimentally</em>, giving one design to a percent of the user population and another design to the rest of the population, then measuring the difference in behavior of the two population. Randomized controlled experiments are quite popular in industry, in which one design (usually the current design, and therefore the "control" condition) is compared to some new design (usually a new design, and therefore the "experimental" condition). You might know these by the name <a href="https://www.linkedin.com/pulse/ab-testing-vs-user-experience-research-yann-riche">A/B tests</a>, where the A usually represents a "control" condition and the B usually represents an "experimental" condition. Experiments such as these can provide the strongest evidence of a difference between two designs, but because it's difficult to come up with holistic measures of success, the results tend to be pretty narrow. Perhaps that's okay if your definition of success is more profit. Making more money is easy to measure. If your definition of success is that users are less confused, that might be harder to measure, because it can be harder to observe, classify, and count, especially automatically. Industry is still learning how to design good experiments. One of the roles that data scientists are playing are ensuring that A/B tests are well-designed, valid, and reliable for decision-making purposes.</p>
+		
+		<p>There are less certain and less robust forms of empirical evidence. We'll focus on the most common, a <a href="https://www.amazon.com/Usable-Usability-Simple-Making-Better/dp/1118185471">user test</a>, also known as a usability test. In a user test, you define some common tasks to perform with your user interface and you invite several people who are representative of the people you're designing for to attempt to use your design. User tests can help you learn about lower level problems in a user interface (layout, labeling, flow, etc.), but they generally can't help you learn about whether the design achieves its larger goals (whether it's useful, valuable, meaningful, etc.). This is because a user test doesn't occur in the context of someone's actual life, where those larger goals are relevant.</p>
+			
+		<p>The goal of most usability tests is to discover aspects of a design that cause someone to fail at some task. We call these failures <b>breakdowns</b>, the idea being that someone can be following the correct sequence of steps to complete a task, but then fail to get past a crucial step. Once you've found the breakdowns that occur in your design, you can go back and redesign your interface to prevent breakdowns, running more user tests to see if those breakdowns still occur.</p>
+		
+		<p>Running a user test has a few essential steps.</p>
+		
+		<p>First, you need to decide who is <b>representative</b> of the audience you are designing for and then find several people to invite to participate. Who is representative depends entirely on whose problem you think you're solving and partly on your ability to get access to people that have that problem. Actually recruiting these users can require some resourcefulness and creativity. For example, I've often had to walk into coffee shops and ask random strangers, or spam mailing lists to ask people to participate. You have to be a bit bold and courageous to find participants. If you're lucky, you might work for a large company that invests in a whole team to find people to participate in user studies. Most companies do not have such sophisticated user study infrastructure.</p>
+		
+		<p>In addition to finding representative users, you need to define <b>tasks</b> for the participants to attempt to perform. Which tasks you choose depends on which tasks you think will be most important and common when people are using your solution. Good tasks define the <b>goal</b> you want a user to achieve with your design without giving away any of the knowledge they need to achieve the goal. If you <em>do</em> give away this knowledge, then it wouldn't be a fair test of your design in the real world, because you wouldn't have been there to help. For example, if your goal is for someone to print a document with your app by using the "print" button, your instructions can't say "print the document", because then the user would know that "print" is the key word to find. Instead, you might show them a printout of what you want and say, "Use this interface to make this". The same applies if a participant asks you questions: you can't answer them, because you wouldn't normally be there to help. The design should do the teaching.</p>
+		
+		<p>Once you've defined your tasks, try to define what path you expect them to take through your design to accomplish the goal. This way, as you are observing someone work, you can be monitoring where you expect them to go, and then note when they deviate from that path.</p> 
+
+		<p><img class="img-responsive center-block" style="width:50%" src="images/breakdowns.jpg" /></p>		
+		
+		<p>When a participant arrives to participate in your user study, welcome them, explain that you're here to test the design and not them, and then explain what you'll have them do. For example, you might have a script like this:</p>
+		
+		<blockquote>
+			Today we're interested in seeing how people use this new copier design...
+We're here to test this system, not you, so anything that goes wrong is our fault, not yours.
+I'm going to give you some tasks to perform. I won't be able to answer your questions, because the goal is to see where people have difficulty, so we can make it easier.
+Do you have any questions before we begin?
+		</blockquote>
+
+		<p>To ensure the validity of the results that you get, you have to resist answering any of the questions that participants might ask unless it's about something other than the design. It might reduce their discomfort and yours, but you won't be there in real life and you want to see how hard the task is. Sit on your hands and close your mouth!</p>
+		
+		<p>Once you conduct a test like this, and you observe several breakdowns, you may wonder <em>why</em> people were confused. One strategy is to ask your participants to <a href="http://psycnet.apa.org/doi/10.1037/0033-295X.87.3.215">think aloud</a> while they attempt to complete the task. You can say:</p>
+		
+		<blockquote>
+			I need you to think aloud while working. Tell me constantly what you're wondering about, confused about. If you stop talking, I'll prompt you to resume talking.
+		</blockquote>
+		
+		<p><img class="img-responsive center-block" style="width:50%" src="images/thinkaloud.png" /></p>		
+		
+		<p>If your design requires too much concentration to have someone think aloud while they're using it (e.g., they're playing a game), you can also record their interactions and then conduct a <b>retrospective interview</b>, having them reflect on the actions that they took while watching the recording. These recordings might just be the screen interactions, or they might also include the user's context, facial expressions, or other details. Recording can also be useful for showing designers and engineers breakdowns, helping to persuade others in an organization that a design needs to be improved.</p>
+		
+		<p><a href="http://psycnet.apa.org/doi/10.1037/a0021663">Not all think aloud is valid</a>. Human beings cannot reliably tell you about <em>perceptual</em> phenomenon such as 1) why they didn't notice something or 2) what they noticed first. People can share valid knowledge of what questions they have, what reactions they have to your design, what strategies they're trying, and anything else that requires explicit, conscious planning.</p>
+		
+		<p>After finishing the user study, debrief with your participant, helping them to finish tasks they couldn't complete (so they don't feel like they failed), and reassure them that the design is still in progress, so any difficulties they experienced were your fault and not theirs. This is also a great opportunity to ask for additional feedback.</p>
+		
+		<p>While user studies can tell you a lot about the usability problems in your interface and help you identify incremental improvements to your design, they can't identify fundamental flaws and they can't tell you whether your design is <b>useful</b>. This is because <em>you</em> define the tasks. If no one wants to complete those tasks in real life, or there are conditions that change the nature of those tasks in real life, your user study results will not reveal those things. The only way to find out if something would actually be used is to implement your design and give it to people to see if it offers real value (you'd know, because they wouldn't want you to take it away).</p>
+
+		<center class="lead"><a href="how-to-evaluate-analytically.html">Next chapter: How to Evaluate Analytically</a></center>
+
+		<h2>Further reading</h2>
+
+		<p>Ericsson, K. A., & Simon, H. A. (1980). <a href="http://dx.doi.org/10.1037/0033-295X.87.3.215">Verbal reports as data</a>. Psychological review, 87(3), 215.</p>
+		
+		<p>Consolvo, S., Harrison, B., Smith, I., Chen, M. Y., Everitt, K., Froehlich, J., & Landay, J. A. (2007). <a href="http://www.tandfonline.com/doi/abs/10.1080/10447310709336957">Conducting in situ evaluations for and with ubiquitous computing technologies</a>. International Journal of Human-Computer Interaction, 22(1-2), 103-118.</p>
+		
+		<p>Hutchinson, H., Mackay, W., Westerlund, B., Bederson, B. B., Druin, A., Plaisant, C., ... & Roussel, N. (2003, April). <a href="http://dx.doi.org/10.1145/642611.642616">Technology probes: inspiring design for and with families</a>. In Proceedings of the SIGCHI conference on Human factors in computing systems (pp. 17-24). ACM.</p>
+		
+		<p>Nathan, M. J., & Petrosino, A. (2003). <a href="http://aer.sagepub.com/content/40/4/905.short">Expert blind spot among preservice teachers</a>. American educational research journal, 40(4), 905-928.</p>
+
+		<p>Reiss, E. (2012). <a href="https://www.amazon.com/Usable-Usability-Simple-Making-Better/dp/1118185471">Usable usability: simple steps for making stuff better</a>. John Wiley & Sons.</p>		
+		
+		<p>Riche, Y. (2016). <a href="https://www.linkedin.com/pulse/ab-testing-vs-user-experience-research-yann-riche">A/B testing vs. User Experience Research</a>.</p>
+		
+	</body>
+
+</html>
+

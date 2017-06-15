@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+		<link rel="stylesheet" href="style.css" />
+		
+		<title>Analytical evaluation</title>
+
+	</head>
+	<body>
+
+		<p><a href="index.html">Back to table of contents</a></p>
+
+		<img src="images/analysis.jpg" class="img-responsive" />		
+		<small>Credit: Unknown</small>
+		
+		<h1>How to evaluate analytically</h1>
+		<div class="lead">Andrew J. Ko</div>
+
+		<p>Thus far, we've discussed two ways of evaluating designs. <a href="how-to-critique.html">Critique</a> collaboratively leverages human judgement and <a href="how-to-evaluate-empircally.html">empiricism</a> attempts to observe how well a design works with people trying to actually use your design. The third and last paradigm we'll discuss is <b>analytical</b>. Methods in this paragraph try to <em>simulate</em> people using a design and then use design principles and expert judgement to predict likely problems.</p>
+		
+		<p>There are many of these methods. Here are just a sample:</p>
+		
+		<ul>
+			<li><a href="http://dx.doi.org/10.1145/97243.97281">Heuristic evaluation</a> is a collection of user interface design principles that, when applied systematically to a user interface, can identify many of the same breakdowns that a user test would identify. We'll discuss this method here.</li>
+			<li><a href="http://dx.doi.org/10.1145/223355.223735">Cognitive walkthrough</a> is a method where an expert (that would be you, novice designer), defines tasks, but rather than testing those tasks with real people, you walk through each step of the task and verify that a user would know to do the step, know how to do the step, would successfully do the step, and would understand the feedback the design provided. If you go through every step and check these four things, you'll find all kinds of problems with a design.</li>
+			<li><a href="http://dx.doi.org/10.1145/146802.146834">Claims analysis</a> is a method where you define a collection of scenarios that a design is supposed to support and for each scenario, you generate a set of claims about how the design does and does not support the claims. This method is good at verifying that all of the goals you had for the design are actually met by the functionality you chose for the design.</li>
+			<li><a href="http://dx.doi.org/10.1080/07370024.1990.9667155">Cognitive modeling</a> is a collection of methods that build models, sometimes computational models, of how people reason about tasks. <a href="http://dx.doi.org/10.1145/235833.236054">GOMS</a> for example, which stands for Goals, Operators, Methods, and Selection Rules, is a way of defining expert interactions with an interface and using the model to predict how long it would take to perform various tasks. This has been useful in trying to find ways to optimize expert behavior quite rapidly without having to conduct user testing.</li>
+		</ul>
+		
+		<p>The research area of Human-Computer Interaction is full of all kinds of new methods like the ones above for streamlining how to evaluate user interfaces.</p>
+		
+		<p>Here, we'll discuss just one of these: <a href="http://dx.doi.org/10.1145/97243.97281">Heuristic Evaluation</a>. This method provides the simplest illustration of what it looks like to apply an analytical method to a design. The basic idea behind a heuristic evaluation is to evaluate whether an interface is <b>learnable</b> by a new user. It works best with 4-5 experts spending a few hours with an interface. Each expert inspects every screen, every button, every label, every feedback, and every state of the interface, evaluating each little detail in the interface against a set of design heuristics. By the end, the group of experts should have found a large number of violations of these <b>design heuristics</b>, which may indicate mild to severe usability problems with the interface.</p>
+		
+		<p>In practice, most people find the heuristics themselves much more useful than the process of applying the heuristics. This is probably because exhaustively analyzing an interface is literally exhausting. Instead, most practitioners learn these heuristics and then apply them <em>as they design</em> ensuring that they don't violate the heuristics as they make design choices. This incremental approach requires much less vigilance.</p>
+		
+		<p>Let's get to the heuristics.</p>
+		
+		<p>Here's the first and most useful heuristic: <b>user interfaces should always make visible the system status.</b> Remember when we talked about <a href="hwo-to-design-user-interfaces.html">state</a>? Yeah, that state should be visible.</p> Here's an example of visible state:</p>
+		
+		<p><img class="img-responsive center-block" style="width:25%" src="images/stick.png" /></p>		
+
+		<p>This manual car shift stick does a wonderful job showing system status: you move the stick into a new gear and not only is it visually clear, but also tactilely clear which gear the car is in. Can you think of an example of an interface that <i>doesn't</i> make it's state visible? You're probably surrounded by them.</p>
+		
+		<p>Another heuristic is <b>real world match</b>. the concepts, conventions, and terminology used in the system should match the concepts, conventions, and terminology that users have</b>. Take, for example, this control for setting a freezer's temperature:</b>
+			
+		<p><img class="img-responsive center-block" style="width:50%" src="images/freezer.jpg" /></p>		
+
+		<p>I don't know what kind of model you have in your head about a freezer's temperature, but I'm guessing it's not a letter and number based mapping between food categories. Yuck. Why not something like "cold to really cold"?</p>
+		
+		<p><b>User control and freedom</b> is the principle that people will take many paths through an interface (not always the intended ones), and so wherever they end up, they should be able to return to where they came from or change their mind. The notions of "Cancel" and "Undo" are the best examples of user control and freedom: they allow users to change their mind if they ended up in a state they didn't want to be in. The dialog below is a major violation of this principle; it gives all of the power to the computer:</p>
+		
+		<p><img class="img-responsive center-block" style="width:50%" src="images/no-cancel.png" /></p>		
+		
+		<p><b>Consistency and standards</b> is the idea that designs should minimize how many new concepts users have to learn to successfully use the interface. A good example of this is Apple's OS X operating system, which almost mandates that <em>every</em> application support a small set of universal keyboard shortcuts, including for closing a window, closing an application, saving, printing, copying, pasting, undoing, etc. Other operating systems often leave these keyboard shortcut mappings to individual application designers, leaving users to have to relearn a new shortcut for every application.</p>
+		
+		<p><b>Error prevention</b> is the idea that user interfaces, when they can, should always <em>prevent</em> errors rather than giving feedback that they occurred (or worse yet, just letting them happen). Here is a violation of this principle in Apple's Contacts application that once caused me a bunch of problems:</p>
+		
+		<p><img class="img-responsive center-block" style="width:50%" src="images/contacts-error.png" /></p>		
+		<p>Study this for a bit. Can you see the problem? There are two adjacent commands that do <em>very</em> different things. See it yet? Okay, here it is: "Go to my card" (which is a frequent command for navigating to the address book card that represents you) is right next to "Make this my card" (which is whoever you have selected in the application.) First of all, why would anyone ever want to make someone else have their identity in their address book? Second, because these are right next to each other, someone could easily change their identity to someone else. Third, when you invoke this command, there's no feedback that it's been done. So when I did this the first time, and browsed to a page where my browser autofilled my information into a form, suddenly it thought I was my grandma. Tracking down why took a lot of time.</p
+			
+		<p><b>Recognition versus recall</b> is an interesting one. <em>Recognition</em> is the idea that users can see the options in an interface rather than having to memorize and recall them. The classic example of this is a command line, which forces you to remember everything you could possibly type, compared to a menu, which displays all of the commands you can invoke. Of course, command lines have other useful powers, but these are heuristics: they're not always right.</p>
+		
+		<p><b>Flexibility and user efficiency</b> is the idea that common tasks should be fast to do and possible to do in many ways. Will users be saving a lot? Add a keyboard shortcut, add a button, support auto-save (better yet, eliminate the need to save, as on the web and in most OS X applications). More modern versions of this design principle connect to universal design, which tries to accomodate the diversity of user needs, abilities, and goals by offering many ways to use the functionality in an application.</p>
+		
+		<p><b>Help users diagnose and recover from errors</b> says the obvious: if an error must happen and you can't prevent it, offer as much help as possible to a user to help them address whatever the problem is. Here's my favorite extreme example of this:</p>
+		
+		<p><img class="img-responsive center-block" style="width:50%" src="images/error.png" /></p>	
+		
+		<p>Of course, not every dialog needs this level of support, but you'd be surprised by just how much help is necessary. Diagnosing and recovering from errors is hard work.</p>
+		
+		<p>I'm not fond of the last two heuristics, mostly because they're kind of black and white. The first is <b>offer help and documentation</b>. Yes, do that, and do it well. This isn't a useful heuristic because it's prescription is so high level. The second is <b>minimalist design</b>, which just seems like an arbitrary aesthetic. We've already discussed different notions of <a href="how-to-be-critical.html">what makes design good</a>. Just ignore this one.</p>
+		
+		<p>If you can get all of these design principles into your head, along with all of the others you might encounter in this class, other classes, and any work you do in the future, you'll have a full collection of analytical tools for judging designs on their principled merits. There's really nothing that can substitute for the certainty of actually watching someone struggle to use your design, but these analytical approaches are quick ways to get feedback, and suitable fallbacks if working with actual people isn't feasible.</p>
+		
+		<center class="lead"><a href="index.html">Return to Table of Contents</a></center>
+
+		<h2>Further reading</h2>
+
+		<p>Carroll, J.M. and Rosson, M.B.. 1992. <a href="http://dx.doi.org/10.1145/146802.146834">Getting around the task-artifact cycle: how to make claims and design by scenario</a>. ACM Trans. Inf. Syst. 10, 2 (April 1992), 181-212.</p>
+
+		<p>John, B.E. and Kieras, D.E. 1996. <a href="http://dx.doi.org/10.1145/235833.236054">The GOMS family of user interface analysis techniques: comparison and contrast</a>. ACM Transactions on Compouter-Human Interaction. 3, 4 (December 1996), 320-351.</p>
+		
+		<p>Nielsen, J., & Molich, R. (1990, March). <a href="http://dx.doi.org/10.1145/97243.97281">Heuristic evaluation of user interfaces</a>. In Proceedings of the SIGCHI conference on Human factors in computing systems (pp. 249-256). ACM.</p>
+
+		<p>Olson, J. R., & Olson, G. M. (1990). <a href="http://dx.doi.org/10.1080/07370024.1990.9667155">The growth of cognitive modeling in human-computer interaction since GOMS</a>. Human-computer interaction, 5(2-3), 221-265.</p>
+		
+		<p>Polson, P. G., Lewis, C., Rieman, J., & Wharton, C. (1992). <a href="http://dx.doi.org/10.1016/0020-7373(92)90039-N">Cognitive walkthroughs: a method for theory-based evaluation of user interfaces</a>. International Journal of man-machine studies, 36(5), 741-773.</p>
+		
+
+		
+	</body>
+
+</html>
+
