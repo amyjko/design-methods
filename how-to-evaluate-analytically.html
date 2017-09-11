@@ -34,12 +34,57 @@
 		
 		<ul>
 			<li><a href="http://dx.doi.org/10.1145/97243.97281">Heuristic evaluation</a> is a collection of user interface design principles that, when applied systematically to a user interface, can identify many of the same breakdowns that a user test would identify. We'll discuss this method here.</li>
-			<li><a href="http://dx.doi.org/10.1145/223355.223735">Cognitive walkthrough</a> is a method where an expert (that would be you, novice designer), defines tasks, but rather than testing those tasks with real people, you walk through each step of the task and verify that a user would know to do the step, know how to do the step, would successfully do the step, and would understand the feedback the design provided. If you go through every step and check these four things, you'll find all kinds of problems with a design.</li>
+			<li><a href="http://dx.doi.org/10.1145/223355.223735">Walkthroughs</a> are methods where an expert (that would be you, novice designer), defines tasks, but rather than testing those tasks with real people, you walk through each step of the task and verify that a user would know to do the step, know how to do the step, would successfully do the step, and would understand the feedback the design provided. If you go through every step and check these four things, you'll find all kinds of problems with a design.</li>
 			<li><a href="http://dx.doi.org/10.1145/146802.146834">Claims analysis</a> is a method where you define a collection of scenarios that a design is supposed to support and for each scenario, you generate a set of claims about how the design does and does not support the claims. This method is good at verifying that all of the goals you had for the design are actually met by the functionality you chose for the design.</li>
 			<li><a href="http://dx.doi.org/10.1080/07370024.1990.9667155">Cognitive modeling</a> is a collection of methods that build models, sometimes computational models, of how people reason about tasks. <a href="http://dx.doi.org/10.1145/235833.236054">GOMS</a> for example, which stands for Goals, Operators, Methods, and Selection Rules, is a way of defining expert interactions with an interface and using the model to predict how long it would take to perform various tasks. This has been useful in trying to find ways to optimize expert behavior quite rapidly without having to conduct user testing.</li>
 		</ul>
+
+		<p>In this chapter, we'll discuss two of the most widely used methods: walkthroughs and heuristics.</p>
+
+		<h2>Cognitive Walkthrough</h2>
 		
-		<p>The research area of Human-Computer Interaction is full of all kinds of new methods like the ones above for streamlining how to evaluate user interfaces.</p>
+		<p>The fundamental idea of a walkthrough is to <em>think as the user would</em>, evaluating every step of a task in an interface for usability problems. One of the more common walkthrough methods is a Cognitive Walkthrough (<a href="#polson02">Polson 1992</a>). Despite having been published in the early nineties, the technique is quite general, since it focuses on what people are thinking while using an interface rather than the interface.</p>
+		
+		<p>To perform a walkthrough, the steps are quite simple:</p>
+		
+		<ol>
+			<li>Select a <strong>task</strong> to evaluate (probably a frequently performed important task that is central to the user interface's value). Identify every individual action a user must perform to accomplish the task with the interface.</li>
+			<li>Obtain a <strong>prototype</strong> of all of the states necessary to perform the task, showing each change. This could be anything from a low-fidelity paper prototype showing each change along a series of actions, or it might be a fully-functioning implementation.</li>
+			<li>Develop or obtain <strong>persona</strong> of representative users of the system. You'll use these to help speculate about user knowledge and behavior.</li>
+			<li><em>For each step</em> in the task you devised, answer the following four questions:</li>
+			<ol>
+				<li><em>Will the user try to achieve the right effect?</em> In other words, would the user even know that this is the goal they should have? If not, there's a design flaw.</li>
+				<li><em>Will the user notice that the correct action is available?</em> If they wouldn't notice, you have a design flaw.</li>
+				<li><em>Will the user associate the correct action with the effect that the user is trying to achieve?</em> Even if they notice that the action is available, they may not know it has the effect they want.</li>
+				<li><em>If the correct action is performed, will the user see that progress is being made toward the solution of the task?</em> In other words, is there feedback that confirms the desired effect has occurred? If not, they won't know they've made progress. This is a design flaw.</li>
+			</ol>
+		</ol>
+		
+		<p>By the end of this simple procedure, you'll have found some number of missing goals, missing affordances, gulfs of execution, and gulfs of evaluation.</p>
+
+		<p>Here's an example of a cognitive walkthrough in action:</p>
+		
+		<p class="embed-responsive embed-responsive-16by9">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Edqjao4mmxM" frameborder="0" allowfullscreen></iframe>
+		</p>
+
+		<p>Notice how <em>systematic</em> and <em>granular</em> it is. Slowly going through this checklist for every step is a powerful way to verify every detail of an interface.</p>
+		
+		<p>There are some flaws with this method. Most notably, if you choose just one persona, and that persona doesn't adequately reflect the diversity of your users' behavior, or you don't use the persona to faithfully predict users' behavior, you won't find valid design flaws. You could spend an hour or two conducting a walkthrough, and end up either with problems that aren't real problems, or overlooking serious issues that you believed weren't problems.</p>
+		
+		<p>Some researchers have addressed these flaws in persona choice by contributing more theoretically-informed persona. For example, GenderMag is a cognitive walkthrough like the one above, but with <a href="http://eusesconsortium.org/gender/GenderMagPersona-FoundationDocuments/Foundations.html" target="_blank">four customizable persona</a> that cover a broad spectrum of facets of software use:</p>
+		
+		<ul>
+			<li>A user's motivation for using the software</li>
+			<li>A user's information processing style (top-down, which is more comprehensive before acting, and bottom-up, which is more selective.)</li>
+			<li>A user's computer self-efficacy (their belief that they can succeed a computer tasks)
+			<li>A user's stance toward risk-taking in software use</li>
+			<li>A user's strategy for learning new technology.</li>
+		</ul>
+		
+		<p>If you ignore variation along these five dimensions, your design will only work for some people. By using multiple persona, and testing a test against each, you can ensure that your design is more inclusive. In fact, the authors behind GenderMag have deployed it into many software companies, finding that teams <em>always</em> find inclusiveness issues (<a href="hill16">Hill et al. 2016</a>).</p>
+		
+		<h2>Heuristic Evaluation</h2>
 		
 		<p>Here, we'll discuss just one of these: <a href="http://dx.doi.org/10.1145/97243.97281">Heuristic Evaluation</a>. This method provides the simplest illustration of what it looks like to apply an analytical method to a design. The basic idea behind a heuristic evaluation is to evaluate whether an interface is <b>learnable</b> by a new user. It works best with 4-5 experts spending a few hours with an interface. Each expert inspects every screen, every button, every label, every feedback, and every state of the interface, evaluating each little detail in the interface against a set of design heuristics. By the end, the group of experts should have found a large number of violations of these <b>design heuristics</b>, which may indicate mild to severe usability problems with the interface.</p>
 		
@@ -88,7 +133,11 @@
 
 		<h2>Further reading</h2>
 
+		<p id="burnett16">Burnett, M., Stumpf, S., Macbeth, J., Makri, S., Beckwith, L., Kwan, I., Peters, A., Jernigan, W. (2016). <a href="https://doi.org/10.1093/iwc/iwv046">GenderMag: A method for evaluating software's gender inclusiveness</a>. Interacting with Computers, 28(6), 760-787.</p>
+
 		<p>Carroll, J.M. and Rosson, M.B.. 1992. <a href="http://dx.doi.org/10.1145/146802.146834">Getting around the task-artifact cycle: how to make claims and design by scenario</a>. ACM Trans. Inf. Syst. 10, 2 (April 1992), 181-212.</p>
+
+		<p id="hill16">Hill, C., Ernst, S., Oleson, A., Horvath, A., & Burnett, M. (2016, September). GenderMag experiences in the field: The whole, the parts, and the workload. In Visual Languages and Human-Centric Computing (VL/HCC), 2016 IEEE Symposium on (pp. 199-207).</p>
 
 		<p>John, B.E. and Kieras, D.E. 1996. <a href="http://dx.doi.org/10.1145/235833.236054">The GOMS family of user interface analysis techniques: comparison and contrast</a>. ACM Transactions on Compouter-Human Interaction. 3, 4 (December 1996), 320-351.</p>
 		
@@ -96,7 +145,7 @@
 
 		<p>Olson, J. R., & Olson, G. M. (1990). <a href="http://dx.doi.org/10.1080/07370024.1990.9667155">The growth of cognitive modeling in human-computer interaction since GOMS</a>. Human-computer interaction, 5(2-3), 221-265.</p>
 		
-		<p>Polson, P. G., Lewis, C., Rieman, J., & Wharton, C. (1992). <a href="http://dx.doi.org/10.1016/0020-7373(92)90039-N">Cognitive walkthroughs: a method for theory-based evaluation of user interfaces</a>. International Journal of man-machine studies, 36(5), 741-773.</p>
+		<p id="polson02">Polson, P. G., Lewis, C., Rieman, J., & Wharton, C. (1992). <a href="http://dx.doi.org/10.1016/0020-7373(92)90039-N">Cognitive walkthroughs: a method for theory-based evaluation of user interfaces</a>. International Journal of man-machine studies, 36(5), 741-773.</p>
 		
 
 		
