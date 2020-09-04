@@ -1,2 +1,2 @@
 # design-methods
-A simple, accessible, mobile-ready textbook on HCI and Design. The book is hosted on Amy's faculty website at http://faculty.washington.edu/ajko/books/design-methods/
+A simple, accessible, mobile-ready textbook on HCI and Design. The book is hosted on Amy's faculty website at http://faculty.washington.edu/ajko/books/design-methods/ and build with [Peruse](https://github.com/amyjko/peruse), a simple framework for authoring online books (also created by Amy).
