@@ -60,7 +60,7 @@ When you prepare for an interview, try to do the following:
 
 For examples of great interviews, consider any of those by |Fresh Air host Terry Gross|http://www.npr.org/programs/fresh-air/archive]. She's particularly good at establishing rapport, showing sincere interest in her guest, and asking surprising, insightful questions that reveal her guests' perspectives on the world.
 
-Interviews are flawed and limited in many ways. They are out of context; they require people to remember things (which people tend not to do well). That means your understanding of a problem could be biased or flawed based on fabricated memories, misrepresentations, or even lies. Another downside of interviews is that participants may change their responses to please the interviewer or conform with societal expectations for how a person should behave, based on the context of the interview. This is called *participant response bias* <dell12>
+Interviews are flawed and limited in many ways. They are out of context; they require people to remember things (which people tend not to do well). That means your understanding of a problem could be biased or flawed based on fabricated memories, misrepresentations, or even lies. Another downside of interviews is that participants may change their responses to please the interviewer or conform with societal expectations for how a person should behave, based on the context of the interview. This is called *participant response bias* <dell12>.
 
 # Contextual Inquiry	
 
