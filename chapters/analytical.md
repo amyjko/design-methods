@@ -34,7 +34,7 @@ Here's an example of a cognitive walkthrough in action:
 		
 |https://www.youtube.com/embed/Edqjao4mmxM|Sample cognitive walkthrough|An example Cognitive Walkthrough|Chris Kimmer|
 
-Notice how _systematic_ and _granular_ it is. Slowly going through this checklist for every step is a powerful way to verify every detail of an interface.There are some flaws with this method. Most notably, if you choose just one persona, and that persona doesn't adequately reflect the diversity of your users' behavior, or you don't use the persona to faithfully predict users' behavior, you won't find valid design flaws. You could spend an hour or two conducting a walkthrough, and end up either with problems that aren't real problems, or overlooking serious issues that you believed weren't problems.
+Notice how _systematic_ and _granular_ it is. Slowly going through this checklist for every step is a powerful way to verify every detail of an interface. There are some flaws with this method. Most notably, if you choose just one persona, and that persona doesn't adequately reflect the diversity of your users' behavior, or you don't use the persona to faithfully predict users' behavior, you won't find valid design flaws. You could spend an hour or two conducting a walkthrough, and end up either with problems that aren't real problems, or overlooking serious issues that you believed weren't problems.
 
 Some researchers have addressed these flaws in persona choice by contributing more theoretically-informed persona. For example, *GenderMag* is similar to the cognitive walkthrough like the one above, but with [four customizable persona|http://eusesconsortium.org/gender/GenderMagPersona-FoundationDocuments/Foundations.html] that cover a broad spectrum of facets of software use <burnett16-1>:
 
@@ -60,7 +60,7 @@ In practice, most people find the heuristics themselves much more useful than th
 
 Let's get to the heuristics. 
 
-Here's the first and most useful heuristic: *user interfaces should always make visible the system status*.Remember when we talked about [state|interfaces]? Yeah, that state should be visible. Here's an example of visible state:
+Here's the first and most useful heuristic: *user interfaces should always make visible the system status*. Remember when we talked about [state|interfaces]? Yeah, that state should be visible. Here's an example of visible state:
 		
 |stick.png|A gear switch knob for a Lexus car|System status|Unknown|
 
@@ -100,4 +100,4 @@ If you can get all of these design principles into your head, along with all of 
 
 ---
 
-All of these methods, while quite powerful at accelerating evaluation, make some fairly fundamental assumptions about what makes design "good".And most of these assumptions implicitly conceive of "good" as efficient, learnable, and error-preventing.These methods do little, therefore, to assess the numerous [other conceptions of design quality|critique] we have discussed, such as accessibility or justice.To evaluate those, one has to consider other methods that explicitly focus on those qualities.Moreover, all depend on you to make assumptions about people too, drawing upon persona and assumptions of common knowledge, all of which may be untrue of marginalized groups.Design has a long way to go before its methods are truly equitable, focusing on the edge cases and margins of human experience and diversity, rather than on the dominant cases.It's your responsibility as a designer to look for those methods and demand their use.
+All of these methods, while quite powerful at accelerating evaluation, make some fairly fundamental assumptions about what makes design "good". And most of these assumptions implicitly conceive of "good" as efficient, learnable, and error-preventing. These methods do little, therefore, to assess the numerous [other conceptions of design quality|critique] we have discussed, such as accessibility or justice. To evaluate those, one has to consider other methods that explicitly focus on those qualities. Moreover, all depend on you to make assumptions about people too, drawing upon persona and assumptions of common knowledge, all of which may be untrue of marginalized groups. Design has a long way to go before its methods are truly equitable, focusing on the edge cases and margins of human experience and diversity, rather than on the dominant cases. It's your responsibility as a designer to look for those methods and demand their use.
