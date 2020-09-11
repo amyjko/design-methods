@@ -28,7 +28,7 @@ In addition to personas, you can also define *scenarios* <boedker00>, which capt
 For example, here's a simple dinnertime scenario:
 
 "
-It's Friday at 7:30 pm and Amy is really tired after work. Her wife isn't home yet&mdash;she had to stay late&mdash;and so while she'd normally eat out, she's not eager to go out alone, nor is she eager to make a big meal just for herself. She throws a frozen dinner in the microwave and heads to the living room to sit down on her couch to rest her legs. Once it's done, she takes it out, eats it far too fast, and spends the rest of the night regretting her poor diet and busy day.
+It's Friday at 7:30 pm and Amy is really tired after work. Her wife isn't home yet--she had to stay late--and so while she'd normally eat out, she's not eager to go out alone, nor is she eager to make a big meal just for herself. She throws a frozen dinner in the microwave and heads to the living room to sit down on her couch to rest her legs. Once it's done, she takes it out, eats it far too fast, and spends the rest of the night regretting her poor diet and busy day.
 "
 
 (Yes, that's me too.)
