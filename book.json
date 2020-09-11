@@ -1,7 +1,7 @@
 {
 	"title": "Design Methods",
-	"authors": ["Amy J. Ko"],
-	"contributors": ["Rachel Franz"],
+	"authors": ["[Amy J. Ko|https://faculty.washington.edu/ajko/]"],
+	"contributors": ["[Rachel Franz|https://rachelfranz.com]"],
 	"license": "[Creative Commons Attribution-NoDeriviatives 4.0|https://creativecommons.org/licenses/by-nd/4.0/]",
 	"cover": ["cover.jpg", "A photograph of user interface wireframes.", "What design is and how to do it.", "Amy J. Ko"],
 	"unknown": ["cover.jpg", "A photograph of user interface wireframes.", "It looks like you're lost.", "Amy J. Ko"],
