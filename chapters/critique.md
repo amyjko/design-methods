@@ -19,13 +19,13 @@ Let's look at an example of a critique. Most aren't filmed, so I can't show you 
 
 Here's one possible design critique that would follow:
  
-* Me: Please tell us about what we're looking at. 
-* You: Sure. So I set out to design a cleaner alternative to the traditional Microsoft Outlook mail client. I was going for something that was simpler, had fewer options, and as more learnable that the current design. 
-* Me: What do you think works? 
+* _Me_: Please tell us about what we're looking at. 
+* _You_: Sure. So I set out to design a cleaner alternative to the traditional Microsoft Outlook mail client. I was going for something that was simpler, had fewer options, and as more learnable that the current design. 
+* _Me_: What do you think works? 
 * You: I'm really happy with the subject, to, and from information. I think the subject is really nicely prominent, and that's because that's the content people really care about when they're trying to see a message. I also think the proportions of each of the tiled windows is nicely balanced, giving equal attention to all of the elements. 
-* Me: I agree, the balance is nice. It gives the greatest weight to content, which is what email is really about. I'm struggling a bit with the the large subject line in the mail body, however. Do you see how the subject appears in both the the message list and the message body? There's a redundancy there that I can't really see being helpful. Also, from a task flow perspective, someone would read the subject in the message list, and _then_ select the message, so they'd already know what the subject was. It seems like wasted space. I do think the prominence of the font itself is nice, however, and could be a good place for other prominent metadata. Do you have any thoughts on what else might go there? 
-* You: that's a good question. I guess from a task perspective, the first thing someone really wants to see after reading the subject line is the message itself. Maybe that whole container of metadata isn't really necessary, or doesn't need to be as prominent. 
-* Me: I wouldn't go that far. Some of that metadata like who else received the message, could be pretty important. Maybe try putting the names of the other recipients.
+* _Me_: I agree, the balance is nice. It gives the greatest weight to content, which is what email is really about. I'm struggling a bit with the the large subject line in the mail body, however. Do you see how the subject appears in both the the message list and the message body? There's a redundancy there that I can't really see being helpful. Also, from a task flow perspective, someone would read the subject in the message list, and _then_ select the message, so they'd already know what the subject was. It seems like wasted space. I do think the prominence of the font itself is nice, however, and could be a good place for other prominent metadata. Do you have any thoughts on what else might go there? 
+* _You_: that's a good question. I guess from a task perspective, the first thing someone really wants to see after reading the subject line is the message itself. Maybe that whole container of metadata isn't really necessary, or doesn't need to be as prominent. 
+* _Me_: I wouldn't go that far. Some of that metadata like who else received the message, could be pretty important. Maybe try putting the names of the other recipients.
 
 There are several things to notice about the exchange above. It's respectful, with each person listening and accepting what the other person is saying. It's collaborative, with each person contributing knowledge to the conversation. It's grounded in design rationale and design judgement, focusing on _why_ choices are made and why _different_ choices were made, and how that might effect the success of the solution. 
 
