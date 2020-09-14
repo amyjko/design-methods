@@ -1,13 +1,13 @@
 
 As I mentioned I [Chapter 1|designers], I subscribe to the view that design is problem solving. But without a clear understanding of what a "problem" is, how can it be solved? What does it mean to "solve" something anyway?
 
-The problem is, once you really understand a problem, you realize that most problems are not solvable at all.  They're tangled webs of causality, which one might call "wicked" problems <coyne05>.  The best you can do is understand this complex causality and find opportunities to adjust, nudge, and tweak. Take, for example, this TED Talk by Sendhil Mullainathan on "solving" diarrhea and blindness:
+The problem is, once you really understand a problem, you realize that most problems are not solvable at all.  They're tangled webs of causality, which one might call "wicked" problems<coyne05>.  The best you can do is understand this complex causality and find opportunities to adjust, nudge, and tweak. Take, for example, this TED Talk by Sendhil Mullainathan on "solving" diarrhea and blindness:
 
 |https://www.youtube.com/embed/XBJQENjZJaA|Sendhil Mullainathan: Solving social problems with a nudge|Most problems are more complicated than you think|TED|
 
 Note how the "solutions" to the problems are all incremental: they change a few parts of a broken system, which leads to great improvements, but the problem is never "solved".
 
-What then is a "problem" if a problem is always complex and always changing? [Herb Simon|https://en.wikipedia.org/wiki/Herbert_A._Simon] said, _"Everyone designs who devises courses of action aimed at changing existing situations into preferred ones."_ <simon69>. One view, then is that a problem is just an "undesirable situations" (meaning undesirable to a human). Therefore, problems are really just situations that people don't want.
+What then is a "problem" if a problem is always complex and always changing? [Herb Simon|https://en.wikipedia.org/wiki/Herbert_A._Simon] said, _"Everyone designs who devises courses of action aimed at changing existing situations into preferred ones."_<simon69>. One view, then is that a problem is just an "undesirable situations" (meaning undesirable to a human). Therefore, problems are really just situations that people don't want.
 
 Now, that doesn't mean that a situation is undesirable to _everyone_. For one person a situation might be undesirable, but to another, it might be greatly desirable. For example, most gambling addicts wish it was harder for them to gamble, but casinos are quite happy that it's easy to gamble. That means that problems are inherently tied to specific groups of people that wish their situation was different. Therefore, you can't define a problem without being very explicit about _whose_ problem you're addressing. And this requires more than just choosing a particular category of people ("Children! Students! The elderly!"), which is fraught with harmful stereotypes. It requires taking quite seriously the question of _who are you trying to help and why_, and what kind of help do they really need? And if you haven't talked to the people you're trying to help, then how could you possibly know what their problems are, or how to help them with design?
 
@@ -20,7 +20,7 @@ Consider, for example, this video, by blind YouTuber Tommy Edison, who wanted to
 
 Why was it so hard for him to find the headphone jack?  No one on the design team had any clue about the the challenges of finding small holes headphone jack holes without sight. They _did_, however, include a nice big label above the hole that said "Audio jack", which of course, Tommy couldn't see. Diebold, the manufacturer of the ATM had a wrong understanding of the problem of blind ATM accessibility. All of these show how they failed at the most basic task in understanding design problems: communicating with stakeholders.
 
-By now, you should be recognizing that problems are in no way simple. Because everyone's problems are personal and have different causes and consequences, there is no such thing as the *"average user"* <trufelman16>. Every single solution will meet some people's needs while failing to meet others. And moreover, solutions will meet needs in different degrees, meaning that every solution will require some customization to accommodate the diversity of needs inherent to any problem. The person you're designing for is not like you and really not like anyone else. The best you can do is come up with a spectrum of needs to design against, and then decide who you're going to optimize for. 
+By now, you should be recognizing that problems are in no way simple. Because everyone's problems are personal and have different causes and consequences, there is no such thing as the *"average user"*<trufelman16>. Every single solution will meet some people's needs while failing to meet others. And moreover, solutions will meet needs in different degrees, meaning that every solution will require some customization to accommodate the diversity of needs inherent to any problem. The person you're designing for is not like you and really not like anyone else. The best you can do is come up with a spectrum of needs to design against, and then decide who you're going to optimize for. 
 If you're clever, perhaps you can find a design that's useful to a large, diverse group. But design will always require you to make a value judgement about who does and who does not deserve your design help. Let that choice be a just one, that centers people's actual needs. And let that choice be an equitable one, that focuses on people who actually need help (for example, rural Americans trying to access broadband internet, or children in low income families without computers trying to learn at home during a pandemic--not urban technophiles who want a faster ride to work).
 
 How then, do you communicate with people to understand their problems?
@@ -38,7 +38,7 @@ Let's discuss two in more detail, to give you a sense of their tradeoffs.
 		
 The essential quality of an interview is you asking someone questions and them giving you open ended answers. 
 Interviews can vary in how formal they are, ranging from a fully prepared sequence of questions to more of a conversation. They vary in how structured they were, ranging from a predefined list of questions in a particular order to a set of possible questions you might ask in a particular order. 
-The art and science of planning and conducting interviews is deep and complex <rubin11> , so you shouldn't expect to become an expert in this class. However, you can practice.
+The art and science of planning and conducting interviews is deep and complex<rubin11> , so you shouldn't expect to become an expert in this class. However, you can practice.
 		
 There are a few basic things to avoid in your questions.
 
@@ -60,13 +60,13 @@ When you prepare for an interview, try to do the following:
 
 For examples of great interviews, consider any of those by |Fresh Air host Terry Gross|http://www.npr.org/programs/fresh-air/archive]. She's particularly good at establishing rapport, showing sincere interest in her guest, and asking surprising, insightful questions that reveal her guests' perspectives on the world.
 
-Interviews are flawed and limited in many ways. They are out of context; they require people to remember things (which people tend not to do well). That means your understanding of a problem could be biased or flawed based on fabricated memories, misrepresentations, or even lies. Another downside of interviews is that participants may change their responses to please the interviewer or conform with societal expectations for how a person should behave, based on the context of the interview. This is called *participant response bias* <dell12>.
+Interviews are flawed and limited in many ways. They are out of context; they require people to remember things (which people tend not to do well). That means your understanding of a problem could be biased or flawed based on fabricated memories, misrepresentations, or even lies. Another downside of interviews is that participants may change their responses to please the interviewer or conform with societal expectations for how a person should behave, based on the context of the interview. This is called *participant response bias*<dell12>.
 
 # Contextual Inquiry	
 
 The second method we'll talk about is the exact opposite of an interview: rather than asking someone to tell you about their life in the abstract, you _directly observe_ some aspect of their life and have them teach you about it. 
 You go to where someone works or lives, you watch their work or life, you ask them about their work or life, and from these observations, make sense of the nature and dynamics of their work or life. 
-This approach, called *Contextual Inquiry*, is part of a larger design approach called *Contextual Design* <beyer97>.
+This approach, called *Contextual Inquiry*, is part of a larger design approach called *Contextual Design*<beyer97>.
 
 I'm not going to cover the whole method or approach here, but these are the basics:
 
@@ -91,4 +91,4 @@ Like interviews, contextual inquiries are not perfect. They're extremely time co
 
 There is no right method for understanding problems. Every design context has its own constraints, whether money, time, skill, or circumstance. Consider, for example, the COVID-19 pandemic, which required many people to work from home to prevent community spread. Suddenly, designers who might have wanted to observe people in their work spaces with a contextual inquiry might mean observing their work _at home_. How could they watch someone using a computer, when the only camera in someone's home might be the one pointing at their face? Every design situation requires a careful account of context; effective designers simply know their options and choose the right method for the situation.
 
-Of course, if one is following the operating principles of design justice <costanzachock20>, the notion of a "user research" method begins to melt away. If one is fully participating in a community as a designer, and views their role as facilitator, communicating with with stakeholders does not require a "method". It means talking to your friends and members of your community and seeing how you can offer your skills to help.
+Of course, if one is following the operating principles of design justice<costanzachock20>, the notion of a "user research" method begins to melt away. If one is fully participating in a community as a designer, and views their role as facilitator, communicating with with stakeholders does not require a "method". It means talking to your friends and members of your community and seeing how you can offer your skills to help.

@@ -2,18 +2,18 @@ Thus far, we've discussed two ways of evaluating designs. [Critique|critique] co
 
 There are many of these methods. Here are just a sample:
 		
-* *Heuristic evaluation* <nielsen90> is a collection of user interface design principles that, when applied systematically to a user interface, can identify many of the same breakdowns that a user test would identify. 	We'll discuss this method here.
+* *Heuristic evaluation*<nielsen90> is a collection of user interface design principles that, when applied systematically to a user interface, can identify many of the same breakdowns that a user test would identify. 	We'll discuss this method here.
 
-* *Walkthroughs* <polson92> are methods where an expert (that would be you, novice designer), defines tasks, but rather than testing those tasks with real people, you walk through each step of the task and verify that a user would know to do the step, know how to do the step, would successfully do the step, and would understand the feedback the design provided. 	If you go through every step and check these four things, you'll find all kinds of problems with a design.
+* *Walkthroughs*<polson92> are methods where an expert (that would be you, novice designer), defines tasks, but rather than testing those tasks with real people, you walk through each step of the task and verify that a user would know to do the step, know how to do the step, would successfully do the step, and would understand the feedback the design provided. 	If you go through every step and check these four things, you'll find all kinds of problems with a design.
 
-* *Claims analysis* <carroll92> is a method where you define a collection of scenarios that a design is supposed to support and for each scenario, you generate a set of claims about how the design does and does not support the claims. 	This method is good at verifying that all of the goals you had for the design are actually met by the functionality you chose for the design.
+* *Claims analysis*<carroll92> is a method where you define a collection of scenarios that a design is supposed to support and for each scenario, you generate a set of claims about how the design does and does not support the claims. 	This method is good at verifying that all of the goals you had for the design are actually met by the functionality you chose for the design.
 
-* *Cognitive modeling* <olson90> is a collection of methods that build models, sometimes computational models, of how people reason about tasks. GOMS <john96>, for example, which stands for Goals, Operators, Methods, and Selection Rules, is a way of defining expert interactions with an interface and using the model to predict how long it would take to perform various tasks. 	This has been useful in trying to find ways to optimize expert behavior quite rapidly without having to conduct user testing.
+* *Cognitive modeling*<olson90> is a collection of methods that build models, sometimes computational models, of how people reason about tasks. GOMS<john96>, for example, which stands for Goals, Operators, Methods, and Selection Rules, is a way of defining expert interactions with an interface and using the model to predict how long it would take to perform various tasks. 	This has been useful in trying to find ways to optimize expert behavior quite rapidly without having to conduct user testing.
 
 In this chapter, we'll discuss two of the most widely used methods: walkthroughs and heuristics.
 
 # Cognitive Walkthrough
-The fundamental idea of a walkthrough is to _think as the user would_, evaluating every step of a task in an interface for usability problems. One of the more common walkthrough methods is a Cognitive Walkthrough <polson92>. Despite having been published in the early nineties, the technique is quite general, since it focuses on what people are thinking while using an interface rather than the interface.
+The fundamental idea of a walkthrough is to _think as the user would_, evaluating every step of a task in an interface for usability problems. One of the more common walkthrough methods is a Cognitive Walkthrough<polson92>. Despite having been published in the early nineties, the technique is quite general, since it focuses on what people are thinking while using an interface rather than the interface.
 
 To perform a walkthrough, the steps are quite simple:
 		
@@ -36,7 +36,7 @@ Here's an example of a cognitive walkthrough in action:
 
 Notice how _systematic_ and _granular_ it is. Slowly going through this checklist for every step is a powerful way to verify every detail of an interface. There are some flaws with this method. Most notably, if you choose just one persona, and that persona doesn't adequately reflect the diversity of your users' behavior, or you don't use the persona to faithfully predict users' behavior, you won't find valid design flaws. You could spend an hour or two conducting a walkthrough, and end up either with problems that aren't real problems, or overlooking serious issues that you believed weren't problems.
 
-Some researchers have addressed these flaws in persona choice by contributing more theoretically-informed persona. For example, *GenderMag* is similar to the cognitive walkthrough like the one above, but with [four customizable persona|http://eusesconsortium.org/gender/GenderMagPersona-FoundationDocuments/Foundations.html] that cover a broad spectrum of facets of software use <burnett16-1>:
+Some researchers have addressed these flaws in persona choice by contributing more theoretically-informed persona. For example, *GenderMag* is similar to the cognitive walkthrough like the one above, but with [four customizable persona|http://eusesconsortium.org/gender/GenderMagPersona-FoundationDocuments/Foundations.html] that cover a broad spectrum of facets of software use<burnett16-1>:
 
 * A user's _motivations_ for using the software.
 * A user's _information processing style_ (top-down, which is more comprehensive before acting, and bottom-up, which is more selective.)
@@ -44,7 +44,7 @@ Some researchers have addressed these flaws in persona choice by contributing mo
 * A user's stance toward _risk-taking_ in software use.
 * A user's _strategy_ for learning new technology.
 
-If you ignore variation along these five dimensions, your design will only work for some people. By using multiple personas, and testing a task against each, you can ensure that your design is more inclusive. In fact, the authors behind GenderMag have deployed it into many software companies, finding that teams _always_ find inclusiveness issues <burnett16-2>.
+If you ignore variation along these five dimensions, your design will only work for some people. By using multiple personas, and testing a task against each, you can ensure that your design is more inclusive. In fact, the authors behind GenderMag have deployed it into many software companies, finding that teams _always_ find inclusiveness issues<burnett16-2>.
 
 Here's an example of people conducting a GenderMag walkthrough on several different interfaces. Notice how evaluators refer explicitly to the persona to make their judgements, but otherwise, they're following the same basic procedure of a cognitive walkthrough:
 
@@ -54,7 +54,7 @@ You can download [a helpful kit|http://gendermag.org] to run a GenderMag walkthr
 		
 # Heuristic Evaluation
 
-Here, we'll discuss just one of these: *Heuristic Evaluation* <nielsen90>. This method provides the simplest illustration of what it looks like to apply an analytical method to a design. The basic idea behind a heuristic evaluation is to evaluate whether an interface is *learnable* by a new user. It works best with 4-5 experts spending a few hours with an interface. Each expert inspects every screen, every button, every label, every feedback, and every state of the interface, evaluating each little detail in the interface against a set of design heuristics. By the end, the group of experts should have found a large number of violations of these *design heuristics*, which may indicate mild to severe usability problems with the interface. Here is a [good example|https://www.fastcodesign.com/3053406/how-apple-is-giving-design-a-bad-name] of a heuristic evaluation.
+Here, we'll discuss just one of these: *Heuristic Evaluation*<nielsen90>. This method provides the simplest illustration of what it looks like to apply an analytical method to a design. The basic idea behind a heuristic evaluation is to evaluate whether an interface is *learnable* by a new user. It works best with 4-5 experts spending a few hours with an interface. Each expert inspects every screen, every button, every label, every feedback, and every state of the interface, evaluating each little detail in the interface against a set of design heuristics. By the end, the group of experts should have found a large number of violations of these *design heuristics*, which may indicate mild to severe usability problems with the interface. Here is a [good example|https://www.fastcodesign.com/3053406/how-apple-is-giving-design-a-bad-name] of a heuristic evaluation.
 
 In practice, most people find the heuristics themselves much more useful than the process of applying the heuristics. This is probably because exhaustively analyzing an interface is literally exhausting. Instead, most practitioners learn these heuristics and then apply them _as they design_ ensuring that they don't violate the heuristics as they make design choices. This incremental approach requires much less vigilance.
 
