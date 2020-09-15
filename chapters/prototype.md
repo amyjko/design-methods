@@ -43,7 +43,7 @@ With even more time, you can use video and video editing to show interactions wi
 
 Another popular technique is called [Wizard of Oz|https://www.youtube.com/watch?v=_lawz2ueY9M] prototyping<hoysniemi04, hudson03>. This technique is useful when you're trying to prototype some complex, intelligent functionality that does not yet exist or would be time consuming to create, and use a human mind to replicate it. For example, imagine prototyping a driverless car without driverless car technology: you might have a user sit in the passenger seat with a couple of designers in the back seat, while one of the designers in the back seat secretly drives the car by wire. In this case, the designer is the "wizard", secretly operating the vehicle while creating the illusion of a self-driving car. Wizard of Oz prototypes are not always the best fidelity, because it may be hard for a person to pretend to act like a computer might. For example, here's Kramer, from the sitcom Seinfeld, struggling to simulate a computer-based voice assistant for getting movie times:
 		
-|https://www.youtube.com/embed/qM79_itR0Nc|Seinfeld's Kramer pretending to be a movie phone interface|Is Kramer achieving high enough fidelity to fool George?|Golfprofi187
+|https://www.youtube.com/embed/qM79_itR0Nc|Seinfeld's Kramer pretending to be a movie phone interface|Is Kramer achieving high enough fidelity to fool George?|Golfprofi187|
 
 A more recent example is late-night host James Corden prototyping gesture-based musical instruments for his Apple Watch (with the help of his band):
 
