@@ -7,16 +7,16 @@
 	"unknown": ["cover.jpg", "A photograph of user interface wireframes.", "It looks like you're lost.", "Amy J. Ko"],
 	"description": "After teaching design for many years, I longed for a simple, concise, and practical introduction to design for technically-minded people. In response, I've distilled my lectures from the past decade into these brief chapters. They don't represent _everything_ we know about design, and they certainly only represent my own  stance on design, but my students have found them be accessible introduction to big ideas in design. I hope you enjoy! If you see something missing or wrong, [submit an issue|https://github.com/amyjko/design-methods].",
 	"chapters": [
-		["What designers do", "designers", "studio.jpg", "A photograph of a design studio", "Despite what this image shows, they do more than sit at computers.", "LSR Design Studio"],
-		["How to design", "design", "process.png", "A squiggle line converting toward a straight line", "It's rarely a straight line.", "Jacobito Design"],
-		["How to understand problems", "understand", "knot.jpg", "A complex tangled rope with people trying to disentangle it.", "Most problems are wicked entanglements that require careful study.", "Patrick Corrigan, Toronto Star"],
-		["How to define problems", "problems", "problem.png", "A screen capture of a pronunciation of the the word 'problem', from the Oxford English Dictionary", "We can't define them fully, but we can try.", "Oxford English Dictionary"],
-		["How to be creative", "creative", "bulb.jpg", "A vector graphic of a lightbulb", "Creativity is a skill.", "Unknown"],
-		["How to prototype", "prototype", "prototype.jpg", "A photograph of a sketch of a mobile application.", "Prototyping comes in many forms.", "Anthony Lagoon"],
-		["How to design interfaces", "interfaces", "ios-android.jpg", "A screenshot of the iOS and Android home screens.", "Interfaces are not natural; they're carefully envisioned and evolved.", "BGR.com"],
-		["How to be critical", "critique", "critique.jpg", "A photograph of a design critique, with designs on a wall and two peopel looking at them.", "One source of evaluation is other designers.", "Wikipedia"],
-		["How to evaluate empirically", "empirical", "usability-test.jpg", "A photograph of one person observing another person use a software application", "Empiricism involves observing use to evaluate designs.", "Media Barn Research"],
-		["How to evaluate analytically", "analytical", "analysis.jpg", "Clip art of a clipboard with a check list.", "Analysis involves using principles to evaluate designs.", "Unknown"]
+		{ "id": "designers", "title": "What designers do", "image": "|studio.jpg|A photograph of a design studio|Despite what this image shows, they do more than sit at computers.|LSR Design Studio|" },
+		{ "id": "design", "title": "How to design", "image": "|process.png|A squiggle line converting toward a straight line|It's rarely a straight line.|Jacobito Design|" },
+		{ "id": "understand", "title": "How to understand problems", "image": "|knot.jpg|A complex tangled rope with people trying to disentangle it.|Most problems are wicked entanglements that require careful study.|Patrick Corrigan, Toronto Star|" },
+		{ "id": "problems", "title": "How to define problems", "image": "|problem.png|A screen capture of a pronunciation of the the word 'problem', from the Oxford English Dictionary|We can't define them fully, but we can try.|Oxford English Dictionary|" },
+		{ "id": "creative", "title": "How to be creative", "image": "|bulb.jpg|A vector graphic of a lightbulb|Creativity is a skill.|Unknown|" },
+		{ "id": "prototype", "title": "How to prototype", "image": "|prototype.jpg|A photograph of a sketch of a mobile application.|Prototyping comes in many forms.|Anthony Lagoon|" },
+		{ "id": "interfaces", "title": "How to design interfaces", "image": "|ios-android.jpg|A screenshot of the iOS and Android home screens.|Interfaces are not natural; they're carefully envisioned and evolved.|BGR.com|" },
+		{ "id": "critique", "title": "How to be critical", "image": "|critique.jpg|A photograph of a design critique, with designs on a wall and two peopel looking at them.|One source of evaluation is other designers.|Wikipedia|" },
+		{ "id": "empirical", "title": "How to evaluate empirically", "image": "|usability-test.jpg|A photograph of one person observing another person use a software application|Empiricism involves observing use to evaluate designs.|Media Barn Research|" },
+		{ "id": "analytical", "title": "How to evaluate analytically", "image": "|analysis.jpg|Clip art of a clipboard with a check list.|Analysis involves using principles to evaluate designs.|Unknown|" }
 	],
 	"revisions": [
 		["September 2020", "Reformatted book in [Peruse|https://github.com/amyjko/peruse]."],
