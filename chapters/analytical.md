@@ -94,7 +94,7 @@ Study this for a bit. Can you see the problem? There are two adjacent commands t
 
 Of course, not every dialog needs this level of support, but you'd be surprised by just how much help is necessary. Diagnosing and recovering from errors is hard work.
 
-I'm not fond of the last two heuristics, mostly because they're kind of black and white. The first is *offer help and documentation*. This isn't a particularly useful heuristic because its prescription is so high level. The second is *minimalist design*, which just seems like an arbitrary aesthetic. We've already discussed different notions of [what makes design good|critical]. Just ignore this one.
+I'm not fond of the last two heuristics, mostly because they're kind of black and white. The first is *offer help and documentation*. This isn't a particularly useful heuristic because its prescription is so high level. The second is *minimalist design*, which just seems like an arbitrary aesthetic. We've already discussed different notions of [what makes design good|critique]. Just ignore this one.
 
 If you can get all of these design principles into your head, along with all of the others you might encounter in this class, other classes, and any work you do in the future, you'll have a full collection of analytical tools for judging designs on their principled merits. There's really nothing that can substitute for the certainty of actually watching someone struggle to use your design, but these analytical approaches are quick ways to get feedback, and suitable fallbacks if working with actual people isn't feasible.
 
