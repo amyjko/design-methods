@@ -4,6 +4,10 @@
 	"license": "[Creative Commons Attribution-NoDeriviatives 4.0|https://creativecommons.org/licenses/by-nd/4.0/]",
 	"cover": "|cover.jpg|A photograph of user interface wireframes.|What design is and how to do it.|Amy J. Ko|",
 	"unknown": "|cover.jpg|A photograph of user interface wireframes.|It looks like you're lost.|Amy J. Ko|",
+	"images": {
+		"cover": "|cover.jpg|A photograph of user interface wireframes.|What design is and how to do it.|Amy J. Ko|",
+		"unknown": "|cover.jpg|A photograph of user interface wireframes.|It looks like you're lost.|Amy J. Ko|"	
+	},
 	"description": "After teaching design for many years, I longed for a simple, concise, and practical introduction to design for technically-minded people. In response, I've distilled my lectures from the past decade into these brief chapters. They don't represent _everything_ we know about design, and they certainly only represent my own  stance on design, but my students have found them be accessible introduction to big ideas in design. I hope you enjoy! If you see something missing or wrong, [submit an issue|https://github.com/amyjko/design-methods].",
 	"chapters": [
 		{ "id": "designers", "title": "What designers do", "image": "|studio.jpg|A photograph of a design studio|Despite what this image shows, they do more than sit at computers.|LSR Design Studio|" },
