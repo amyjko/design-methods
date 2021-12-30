@@ -81,7 +81,7 @@ As with an interview, once you have your data, it's time to step back and interp
 		
 Here's an example of what a contextual inquiry looks like and feels like:
 
-|https://www.youtube.com/embed/Gd5fA9UQDjE|A contextual inquiry|This isn't a perfect example, but it gives a sense of context.|Pancho|
+|https://www.youtube.com/embed/JV6br-npgfw|A contextual inquiry|This grocery shopping contextual inquiry gives a sense of what it means to learn about user needs in context.|Annie Tao|
 
 This contextual inquiry is good in that it happens in context. However, it fails in that the researcher is the one driving the conversation, rather than letting the work of the taxi driver determine the conversation. If the latter had happened, there may have been long periods of silence while the driver drove the car, consulted his smartphone, etc.
 
