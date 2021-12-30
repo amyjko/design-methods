@@ -1,1 +1,0 @@
-ssh ajko@ovid.u.washington.edu "cd public_html/books/design-methods && git pull"
