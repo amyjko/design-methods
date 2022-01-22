@@ -1,6 +1,6 @@
 {
 	"title": "Design Methods",
-	"authors": [{ "id": "ajko", "name": "Amy J. Ko", "url": "https://faculty.washington.edu/ajko/"}],
+	"authors": ["[Amy J. Ko|https://faculty.washington.edu/ajko]"],
 	"license": "[Creative Commons Attribution-NoDeriviatives 4.0|https://creativecommons.org/licenses/by-nd/4.0/]",
 	"images": {
 		"cover": "|cover.jpg|A photograph of user interface wireframes.|What design is and how to do it.|Amy J. Ko|",
