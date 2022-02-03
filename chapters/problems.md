@@ -22,7 +22,7 @@ Amy is a professor who works long, long days. She really values fresh, flavorful
 
 (Yes, that's me.)		
 
-A persona is only useful if it's *valid*. If these details are accurate with respect to the data from your research, then you can use personas as a tool for imagining how any of the design ideas might fit into a person's life. If you just make someone up and their details aren't grounded in someone's reality, your persona will be useless, because you're imagining will be fantasy.
+A persona is only useful if it's *valid*. If these details are accurate with respect to the data from your research, then you can use personas as a tool for imagining how any of the design ideas might fit into a person's life. If you just make someone up and their details aren't grounded in someone's reality, your persona will be useless, because what you're imagining will be fantasy.
 
 In addition to personas, you can also define *scenarios*<boedker00>, which capture what a person might attempt to do with something you design. A good scenario defines, who, what, when, where, why, how, and how often someone tries to accomplish a goal. A good scenario is specific, it specifies goals, but it does _not_ specify interaction details (leaving those to be filled in with design ideas later). 
 For example, here's a simple dinnertime scenario:
