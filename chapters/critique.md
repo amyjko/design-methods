@@ -7,7 +7,7 @@ Design critiques have a number of unique features that try to ensure that feedba
  
 * Critiques are *two-way*. It is not just one person providing critical feedback, but rather the designer articulating the rationale for their decisions (why they made the choices that they did) and the critic responding to those judgements. The critic might also provide their own counter-judgements to understand the designer's rationale further.
 * The critic in a critique must *engage deeply* in the substance of the problem a designer is solving, meaning the more expertise they have on a problem, the better. After all, the goal of a critique is to help someone else understand what you were trying to do and why, so they can provide their own perspective on what they would have done and why. This means that critique is "garbage in, garbage out": if the person offering critique does not have expertise, their critiques may not be very meaningful.
-* Critiques are both *divergent and convergent*. They can generate ideas, or point in new directions.	But they can also narrow, revealing why something doesn't
+* Critiques are both *divergent and convergent*. They can generate ideas, or point in new directions. But they primary focus on revealing why something doesn't work.
 
 Because critiques are inherently negative to some extent, some approaches to critiques can be abusive. In some studios, people might call designs even design_ers_ by nasty names. This is often done to attempt to free people to provide deeply honest feedback about design, train designers to have "thick skin," impervious but open to negative feedback. But it can be highly discouraging to many novice designers, making them question their abilities.
 
