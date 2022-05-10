@@ -1,10 +1,10 @@
-How do you design "good" design? Does it come from lone genius? Is it luck? Is it the result of hard work? Where does all of this stuff that humanity makes actually come from? Here's one humorous take on this from one of my colleagues from graduate school at Carnegie Mellon:
+How do you design "good" design? Does it come from lone genius? Is it luck? Is it the result of hard work? Where does all of this stuff that humanity makes actually come from? Here's one (somewhat glamorizing) articulation of what design is:
 
-|https://player.vimeo.com/video/38870717|Dan Saffer: How to Lie With Design Thinking|Design Thinking is a contentious phrase|Dan Saffer|
+|https://www.youtube.com/embed/MS8p-CgTJIg|Design Is video|Design is a fuzzy, fundamental word|Foundation Capital|
 
-Dan's jokes are obviously coming from a serious place: he's really talking about the _rigor_ of the application of design methods. But Dan's notion of rigor actually has much deeper roots in history.
+The video gets a lot of things right: design is a way of thinking, a mindset, a form of optimistic approach to imagining better worlds. The video argues that it is something fundamentally human. But what makes design _good_?
 
-Starting in the 20th century, people started to think about these questions and come up with names and definitions for "ways" of designing we'll call *design paradigms*. Some of these paradigms are things you might recognize from your own practices and some are things you might have already encountered in classes or in industry. Each paradigm has its strengths and weaknesses. Let's talk about some of the more notable ones and how they differ.
+To answer that, we have to delve into the history of design. Starting in the 20th century, people started to think about these questions and come up with names and definitions for "ways" of designing we'll call *design paradigms*. Some of these paradigms are things you might recognize from your own practices and some are things you might have already encountered in classes or in industry. Each paradigm has its strengths and weaknesses. Let's talk about some of the more notable ones and how they differ.
 
 Let's start with one of the most basic approaches to design: *appropriation*<dourish03>. This involves simply taking some object in the world and using it for some purpose it was not intended. This is actually something that every human does. Some might even consider it a defining human characteristic. For example, you appropriate when you take a broom and use it as a sword; you appropriate when you cut down a tree and carve it into a boat. The process here is a *abductive leap* from a simple observation about some object to a different vision for how that object might be used to achieve a goal<kolko10>.
 
