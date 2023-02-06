@@ -1,7 +1,17 @@
-# Set the path to prepend to all rewrites.
+RewriteEngine On
+
+# Make all paths relative to this
+
 RewriteBase /ajko/books/design-methods
 
-# Redirect all non-directory paths to index.html for single-page routing,
+# Append .html to any requests that resolve to a file with .html. Ignore directories.
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.\*)$ $1.html
+
+# Redirect all non-directory paths to index.html for single-page routing.
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.*) index.html [L,QSA]
